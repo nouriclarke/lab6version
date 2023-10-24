@@ -24,7 +24,7 @@ if __name__ == "__main__":
         if choice == "1":
             password = input("Please enter your password to encode: ")
             print("Your password has been encoded and stored!")
-            print(encode(password))
+            encoded_pass = encode(password)
         elif choice == "2":
             pass
         elif choice == "3":
